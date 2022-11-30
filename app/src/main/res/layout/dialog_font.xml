@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/btnSols"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:fontFamily="@font/suls"
+        android:text="فونت ثلث"
+        android:textColor="@color/purple_500" />
+
+    <Button
+        android:id="@+id/btnGandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:fontFamily="@font/gandom"
+        android:text="فونت گندم"
+        android:textColor="@color/purple_500" />
+
+
+    <Button
+        android:id="@+id/btnIranNastaligh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:fontFamily="@font/irannastaliq"
+        android:text="فونت ایران نستعلیق"
+        android:textColor="@color/purple_500" />
+
+
+    <Button
+        android:id="@+id/btnNazanin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:fontFamily="@font/nazanin"
+        android:text="فونت نازنین"
+        android:textColor="@color/purple_500" />
+
+
+    <Button
+        android:id="@+id/btnDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:text="فونت پیش فرض"
+        android:textColor="@color/purple_500" />
+</LinearLayout>

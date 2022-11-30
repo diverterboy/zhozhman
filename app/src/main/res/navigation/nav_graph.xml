@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.utotech.iper.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_practiceFragment"
+            app:destination="@id/practiceFragment"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/wait_anim"
+            app:popUpTo="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_sentenceFragment"
+            app:destination="@id/sentenceFragment"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/wait_anim"
+            app:popUpTo="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_diaryFragment"
+            app:destination="@id/monthFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_diaryFragment2"
+            app:destination="@id/monthFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_exit_anim"
+            app:popExitAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_mustReadBooksFragment"
+            app:destination="@id/mustReadBooksFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_jazbFragment"
+            app:destination="@id/jazbFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_teslaRuleFragment"
+            app:destination="@id/teslaRuleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.utotech.iper.PracticeFragment"
+        android:label="fragment_practice"
+        tools:layout="@layout/fragment_practice">
+        <argument
+            android:name="myArg"
+            android:defaultValue="tst"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/sentenceFragment"
+        android:name="com.utotech.iper.SentenceFragment"
+        android:label="fragment_sentence"
+        tools:layout="@layout/fragment_sentence" />
+    <fragment
+        android:id="@+id/monthFragment"
+        android:name="com.utotech.iper.MonthFragment"
+        android:label="fragment_month"
+        tools:layout="@layout/fragment_months" >
+        <action
+            android:id="@+id/action_monthFragment_to_diaryFragment"
+            app:destination="@id/diaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diaryFragment"
+        android:name="com.utotech.iper.DiaryFragment"
+        android:label="fragment_diary"
+        tools:layout="@layout/fragment_diary" >
+        <action
+            android:id="@+id/action_diaryFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.utotech.iper.ReportFragment"
+        android:label="fragment_report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.utotech.iper.NavFragments.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/mustReadBooksFragment"
+        android:name="com.utotech.iper.NavFragments.MustReadBooksFragment"
+        android:label="fragment_must_read_books"
+        tools:layout="@layout/fragment_must_read_books" />
+    <fragment
+        android:id="@+id/jazbFragment"
+        android:name="com.utotech.iper.NavFragments.EssayListFragment"
+        android:label="fragment_jazb"
+        tools:layout="@layout/fragment_essay_list" >
+        <action
+            android:id="@+id/action_jazbFragment_to_essayShowFragment"
+            app:destination="@id/essayShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teslaRuleFragment"
+        android:name="com.utotech.iper.NavFragments.TeslaRuleFragment"
+        android:label="fragment_tesla_rule"
+        tools:layout="@layout/fragment_tesla_rule" />
+    <fragment
+        android:id="@+id/essayShowFragment"
+        android:name="com.utotech.iper.NavFragments.EssayShowFragment"
+        android:label="fragment_essay_show"
+        tools:layout="@layout/fragment_essay_show" />
+    <fragment
+        android:id="@+id/sorucesFragment"
+        android:name="com.utotech.iper.NavFragments.SorucesFragment"
+        android:label="fragment_soruces"
+        tools:layout="@layout/fragment_soruces" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.utotech.iper.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.utotech.iper.NavFragments.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

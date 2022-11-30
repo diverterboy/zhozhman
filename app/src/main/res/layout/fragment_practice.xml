@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticeFragment">
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="شنبه 28 خرداد 1401"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="20sp"
+        app:layout_constraintTop_toBottomOf="@id/txtDate">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtPractice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:text="این یک پیغام تستی است "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btnEdtPractice"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/option"
+                android:layout_below="@id/txtPractice"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardview"
+        tools:layout_editor_absoluteX="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_answer"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:hint="@string/enter_answer" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoToNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="برو به تمرین بعدی"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <com.androchef.happytimer.countdowntimer.CircularCountDownView
+        android:id="@+id/circularCountDownView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToNext"
+        app:stroke_background_color="@color/mainP"
+        app:stroke_background_thickness="31dp"
+        app:stroke_foreground_color="@color/colorLightBlue"
+        app:stroke_foreground_thickness="40dp"
+        app:timer_text_color="@color/colorLightBlue"
+        app:timer_text_format="HOUR_MINUTE_SECOND"
+        app:timer_text_isBold="true"
+        app:timer_text_shown="true"
+        app:timer_text_size="20sp"
+        app:timer_type="COUNT_UP" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

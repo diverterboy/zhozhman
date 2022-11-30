@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/btn45sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:fontFamily="@font/nazanin"
+        android:text="هر 45 ثانیه تکرار شود"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn5Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:fontFamily="@font/nazanin"
+        android:text="هر 5 دقیقه تکرار شود"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn10Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nazanin"
+        android:text="هر 10 دقیقه تکرار شود"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn20Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nazanin"
+        android:text="هر 20 دقیقه تکرار شود"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn30Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nazanin"
+        android:text="هر 30 دقیقه تکرار شود"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btnOneHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nazanin"
+        android:text="هر یک ساعت تکرار شود"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+</LinearLayout>

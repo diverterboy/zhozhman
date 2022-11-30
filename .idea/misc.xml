@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Diverter/.gradle/caches/transforms-3/ad1a300ba90af82a2f6cc24309861a3a/transformed/dotsindicator-4.3-debug/res/drawable/spring_dot_background.xml" value="0.1" />
+        <entry key="..\:/Users/Diverter/.gradle/caches/transforms-3/faab25e59185bb360dc567b49fa845f3/transformed/FancyGifDialog-Android-1.4/res/drawable/curved_shape.xml" value="0.1" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/drawable/circle.xml" value="0.1495" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1255" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/drawable/ic_baseline_select_all_24.xml" value="0.1255" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/drawable/toastbck.xml" value="0.1" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/activity_main.xml" value="0.13709677419354838" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/activity_toast.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/add_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/books_row.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/content_toast.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/custom_notification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/custom_toast.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/custom_toast_below_api23.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/days_row.xml" value="0.25" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/dialog_font.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/dialog_theme_toasty.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/dialog_when_to.xml" value="0.264" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/edit_dialog.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/edt_practice_dialog.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/essay_row.xml" value="0.20454545454545456" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_contact_us.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_diary.xml" value="0.25" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_essay_list.xml" value="0.25" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_essay_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_help.xml" value="0.2241112828438949" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_jazb.xml" value="0.1978021978021978" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_main.xml" value="0.264" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_months.xml" value="0.25" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_must_read_books.xml" value="0.1978021978021978" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_practice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_report.xml" value="0.25" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_sentence.xml" value="0.2612137203166227" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_setting.xml" value="0.264" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_soruces.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/fragment_tesla_rule.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/message_list_row.xml" value="0.2" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/month_row.xml" value="0.25" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/nav_header.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/popup_example.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/popup_window.xml" value="0.4" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/practice_list_row.xml" value="0.264" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/toast_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/toastb.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/layout/toasty_theme_picker_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/menu/nav_menu.xml" value="0.40192926045016075" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/menu/option_menu.xml" value="0.2624113475177305" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.102" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.102" />
+        <entry key="..\:/Users/Diverter/AndroidStudioProjects/4/app/src/main/res/xml/root_preferences.xml" value="0.2526041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

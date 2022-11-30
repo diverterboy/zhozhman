@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myWhite"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    tools:context=".SettingFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFont"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="فونت متن"
+        app:icon="@drawable/ic_baseline_font_download_24"
+        app:iconGravity="end" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- <NumberPicker
+             android:id="@+id/numberPicker"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_gravity="end"
+             android:layout_weight="0.2" />
+ -->
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_weight="0.2" />
+
+        <TextView
+            android:id="@+id/txtFontSizeNum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFontSize"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="start"
+            android:text="سایز متن ها"
+            app:icon="@drawable/ic_baseline_format_size_24"
+            app:iconGravity="end" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/mainP" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchSound"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="0.1" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClickSound"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="start"
+            android:text="صدای کلیک"
+            app:icon="@drawable/ic_baseline_music_note_24"
+            app:iconGravity="end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchNotification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="0.1" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNotification"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="start"
+            android:text="نوتیفیکیشن"
+            app:icon="@drawable/ic_baseline_notifications_24"
+            app:iconGravity="end" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/mainP" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnThemeToasty"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="رنگ کادر دور جملات انگیزشی"
+        app:icon="@drawable/ic_baseline_color_lens_24"
+        app:iconGravity="end" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTxtColor"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="رنگ متن جملات انگیزشی روی صفحه"
+        app:icon="@drawable/ic_baseline_color_lens_24"
+        app:iconGravity="end" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/mainP" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDialogWhen"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="فاصله زمانی بین پخش جملات"
+        app:icon="@drawable/ic_baseline_timelapse_24"
+        app:iconGravity="end" />
+
+
+</LinearLayout>

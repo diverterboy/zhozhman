@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_qanoonJazbTesla"
+        android:title="@string/qanoonJazbTesla" />
+
+    <item
+        android:id="@+id/item_qanoonJazb"
+
+        android:title="@string/qanoonJazb" />
+
+    <item
+        android:id="@+id/item_contactUs"
+        android:title="@string/contactUs" />
+
+    <item
+        android:id="@+id/item_resources"
+        android:title="@string/recorces" />
+
+    <item
+        android:id="@+id/item_mustBooks"
+        android:title="@string/mustBooks" />
+
+
+</menu>

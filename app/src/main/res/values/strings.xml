@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">ژوژمان ثروت</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="qanoonJazbTesla">قانون جذب تسلا</string>
+    <string name="activatingTeslaReminder">فعال کردن یادآور تسلا</string>
+    <string name="qanoonJazb">قانون جذب؟</string>
+    <string name="recorces">منابع و مواخذ</string>
+    <string name="contactUs">ارتباط با ما</string>
+    <string name="mustBooks">کتاب هایی که باید بخوانید</string>
+    <string name="todo">todo</string>
+    <string name="enter_the_note">جمله را وارد کنید</string>
+    <string name="add">اضافه کردن</string>
+    <string name="status">وضعیت</string>
+    <string name="enter_answer">پاسخ تمرین را وارد کنید</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="essay_title_image">essay title image</string>
+
+    <!--nicola tesla-->
+
+    <string name="firstTitle">چگونه تکنیک 369 تسلا را انجام دهیم ؟</string>
+    <string name="introTesla">2 روش بسیار قدرتمند را اینجا بیان خواهیم کرد، بسته به شرایط شخصی خودتون هر کدام مناسب سبک زندگی شماست همان را انتخاب کنید،
+ نکته مهم این است که فقط باید یکی از روش ها را انتخابکنید و همان را تا آخر ادامه دهید. </string>
+    <string name="firstMethod">روش اول ( تکنیک 369 نیکلا تسلا) :</string>
+    <string name="secMethod">روش دوم (قانون جذب نیکلا تسلا) :</string>
+    <string name="firstTeslaContent">ابتدا باید هدف خود واضح و روشن با جزئیات کامل در ذهنتون داشته باشید. پس از تعیین هدف خود ، آن را به مدت 17 ثانیه در ذهن خود بدون هیچ گونه مزاحمتی تجسم کنید واگر ممکن بود حتما آنرا به عدد طلایی ۶٨ ثانیه برسانید، یک دفترچه یادداشت تازه بخرید و هدف تجسم کرده خود را : 3 بار در صبح 6 بار در بعد از ظهر، و 9 بار در شب بنویسید. به یاد داشته باشید هنگام نوشتن باید 17 ثانیه و بیشتر را برای نوشتن هدف خود صرف کنید ، نه کمتر از 17 ثانیه ، جمله ای بسازید که 17 ثانیه یا بیشتر را در بر بگیرد و با احساس شور وشعف و لذت هدفتون رو بنویسید ، این روال را فراموش نکنید . 21 روز این کار را انجام دهید، و معجزه اش را ببینید.</string>
+    <string name="secContentTesla">در روش بسیار قدرتمند دوم هم، باید هدفتان را ، حداقل 17ثانیه تجسم کنید ، و در 6 وقت از شبانه روز ،به ترتیب در ساعتهای 15عصر 18مغرب 21شب 6صبح 9صبح 12ظهر انجام دهید، باید یادآور ساعت را فعال کنید و دقیق در تایم های مشخص شده، خواسته و هدف خود را 3 بار با لذت و احساس خوب بنویسید. لازم به یاد آوریست باید با جزئیات و دقت بنویسید .</string>
+    <string name="contact">تماس با ما</string>
+    <string name="manabe">استفاده شده از کتابها و آموزه های اساتید بزرگ ایران وجهان، از جمله کتاب: برنامه اهداف نهایی، اثر برایان تریسی، و کتاب : رویاهایی که رویا نیستند، اثر استاد عباسمنش، و کتاب  اثرمرکب : دارن هاردی،  وسایر اساتید از کتابهایشان و آموزه هایشان استفاده شده که به نام برخی از آنان اکتفا میکنیم  : <br></br>
+➖ برایان ترسی
+➖کوین ترودو
+➖باب پراکتور
+➖رابرت کیوساکی
+➖استر هیکس
+➖آنتونی رابینز
+➖جول اوستین
+➖جک کنفیلد
+➖وین دایر
+➖ناپلئون هیل
+➖جو دیسپنزا
+و…</string>
+    <string name="cancel">انصراف</string>
+    <string name="save">ذخیره</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="eye">Eye</string>
+    <string name="callDeveloper">تماس با برنامه نویس</string>
+    <string name="copyRightTxt">تمام حقوق مادی و معنوی این نرم افزار متعلق به آقای ( سیروان مظهری ) است. و هرگونه سوء استفاده و یا کپی برداری، پیگرد قانونی دارد.</string>
+    <string name="playHelp">پخش توضیحات</string>
+
+</resources>
